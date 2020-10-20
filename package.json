@@ -1,7 +1,7 @@
 {
   "name": "google-auth-simplify",
-  "version": "1.0.3",
-  "description": "It simplify google-auth-library in 3 steps. 1- generate auth url, 2- get auth token, 3- get user info.",
+  "version": "1.0.4",
+  "description": "It simplifies google-auth-library in 3 steps. 1- Generate auth url, 2- Get auth token, 3- Get user info.",
   "main": "lib/GoogleAuth.js",
   "scripts": {
     "test": "jest",
