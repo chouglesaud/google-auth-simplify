@@ -4,6 +4,10 @@ It simplifies ```google-auth-library``` in 3 steps:
 2. Get auth token. 
 3. Get user info.
 
+## Install
+```
+npm i google-auth-simplify
+```
 ## Example
 ```js
 const express = require('express');
