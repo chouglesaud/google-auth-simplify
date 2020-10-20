@@ -1,0 +1,33 @@
+{
+  "name": "google-auth-simplify",
+  "version": "1.0.1",
+  "description": "It simplify google-auth-library in 3 steps. 1- generate auth url, 2- get auth token, 3- get user info.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "google-auth-simplify",
+    "google-auth-library",
+    "google",
+    "api",
+    "google apis",
+    "client",
+    "client library"
+  ],
+  "author": "Saud Chougle",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/chouglesaud/google-auth-simplify.git",
+  "dependencies": {
+    "google-auth-library": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.11.8",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "inlineSourceMap": true,
+    "target": "ES2019",
+    "outDir": "./lib",
+    "lib": ["ESNext"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "!node_modules/@types", "./dist"]
+}
