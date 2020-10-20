@@ -4,7 +4,7 @@ It simplifies ```google-auth-library``` in 3 steps:
 2. Get auth token. 
 3. Get user info.
 
-# Example
+## Example
 ```js
 const express = require('express');
 const { GoogleAuth } = require('google-auth-simplify');
