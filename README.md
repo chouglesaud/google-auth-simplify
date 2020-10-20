@@ -22,13 +22,13 @@ const googleAuth = new GoogleAuth({
 });
 
 app.get('/login', (req, res) => {
-  const authUrl = googleAuth.generateAuthUrl(); // STEP 1
+  const authUrl = googleAuth.generateAuthUrl();// STEP 1
   res.redirect(authUrl);
 });
 
 app.get('/google_redirect_url', async (req, res) => {
   const code = req.query['code'];
-  const authToken = await googleAuth.getAuthToken(code); // STEP 2
+  const authToken = await googleAuth.getAuthToken(code);// STEP 2
   const profile = await googleAuth.getUserInfo(authToken);// STEP 3
   res.json({profile});
 });
